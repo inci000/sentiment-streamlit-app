@@ -24,7 +24,7 @@ with open("label_encoder.pkl", "rb") as enc_file:
     encoder = pickle.load(enc_file)
 
 # Streamlit UI
-st.title("Customer Sentiment Classifier 🚀")
+st.title("Customer Sentiment Classifier")
 
 st.write("""
 Enter a customer message below — the model will predict the sentiment as:
